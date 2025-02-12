@@ -13,7 +13,7 @@ Run server2.py on the server (host) machine.
 chmod +X server2.py
 ./server2.py
 ```
-Run client.py using sudo and admin permissions in order to establish persistance.
+Run client.py on the target machine using sudo and admin permissions in order to establish persistance.
 ```python
 chmod +X client.py
 sudo ./client.py
