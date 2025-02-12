@@ -10,12 +10,12 @@ Both files need to be running for the C2 to work.
 
 Run server2.py on the server (host) machine. 
 ```python
-chmod +X server2.py
+chmod +x server2.py
 ./server2.py
 ```
 Run client.py on the target machine using sudo and admin permissions in order to establish persistance.
 ```python
-chmod +X client.py
+chmod +x client.py
 sudo ./client.py
 ```
 
