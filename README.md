@@ -3,7 +3,7 @@
 This basic C2 Implant is a command-and-control (C2) agent designed to provide remote execution capabilities on a compromised linux system. The script has mechanisms to establish persistence, periodically check for commands from the C2 server, executes them, and sends back the results. 
 ## Installation
 
-Install server2.py on the server, or host, and install client.py on the target machine. 
+Install server2.py on the server, or host, and install client.py on the target machine. Make sure to edit the client.py file with the IP address of your server.
 
 ## Usage
 Both files need to be running for the C2 to work. 
